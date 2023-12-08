@@ -1,6 +1,6 @@
 #include <iostream>
 #include "calc.h"
-
+std::string isPalindrome(int n);
 int main()
 {
    int n= 1234321;
