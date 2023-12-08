@@ -1,3 +1,3 @@
 #pragma once
 
-isPalindrome(S);
+std::isPalindrome(S);
