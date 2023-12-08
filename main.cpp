@@ -1,6 +1,6 @@
 #include<iostream>
 #include "calc.h"
-
+#include <string>
 //#include "calc.h"
 
 int main()
