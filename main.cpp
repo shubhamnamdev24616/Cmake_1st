@@ -5,7 +5,7 @@
 
 int main()
 {
-   std::int S = 1234321,S1=24616;
+   int S = 1234321,S1=24616;
 	std::string result = isPalindrome(S);
         std::cout << result;
 	std::string result2 = isPalindrome(S1);
