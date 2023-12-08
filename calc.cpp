@@ -1,16 +1,14 @@
 #include "calc.h"
 
-std::string isPalindrome(std::string S)
+std::string isPalindrome(std::int n)
 {
-	// Stores the reverse of the
-	// string S
-	string P = S;
-
-	// Reverse the string P
-	reverse(P.begin(), P.end());
-
-	// If S is equal to P
-	if (S == P) {
+	std::int remainder,reversed_number=0;
+	  while(n != 0) {
+    remainder = n % 10;
+    reversed_number = reversed_number * 10 + remainder;
+    n /= 10;
+  }
+	if (n == reversed_number) {
 		// Return "Yes"
 		return "Yes";
 	}
