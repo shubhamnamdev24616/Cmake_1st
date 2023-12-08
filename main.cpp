@@ -6,7 +6,10 @@
 int main()
 {
    std::string S = "ABCDCBA",S1="shubham";
-	std::string cout << std::string isPalindrome(S);
-	std::string cout << std::string isPalindrome(S1);
+	std::string result = isPalindrome(S);
+        std::cout << result;
+	td::string result = isPalindrome(S1);
+        std::cout << result;
+	
     return 0;
 }
