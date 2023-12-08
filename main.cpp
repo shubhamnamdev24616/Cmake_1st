@@ -1,9 +1,10 @@
 #include<iostream>
 #include "calc.h"
 //#include "calc.h"
-
+using namespace std;
 int main()
 {
-    std::cout<<"sum of 10 and 20 is"<<sum(10,20)<<"\n";
+   string S = "ABCDCBA";
+	cout << isPalindrome(S);
     return 0;
 }
