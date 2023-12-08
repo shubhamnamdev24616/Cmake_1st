@@ -1,7 +1,7 @@
 #include "calc.h"
 //#include "calc.h"
 //using namespace std;
-int main()
+int test()
 {
    
 	if(isPalindrome(S)== "yes")
