@@ -7,11 +7,11 @@ int main()
    
 	if(isPalindrome(S)== "yes")
   {
-  std::cout<<"test cases is pass"<<endl;
+  std::cout<<"test cases is pass"<<std::endl;
   }
   else
   {
-   std::cout<<"test cases is fail"<<endl;
+   std::cout<<"test cases is fail"<<std::endl;
   }
     return 0;
 }
