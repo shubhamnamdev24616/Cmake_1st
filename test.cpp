@@ -3,9 +3,9 @@
 
 int main()
 {
-   int S = 1234321;
+   int n= 1234321;
 	std::string Result;
-	Result=isPalindrome(S);
+	Result=isPalindrome(n);
 	if(Result== "Yes")
   {
   std::cout<<"test cases is pass"<<std::endl;
