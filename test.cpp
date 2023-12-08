@@ -15,7 +15,7 @@ int main()
    std::cout<<"test cases is fail"<<std::endl;
   }
 	std::string Result1;
-	Result1=isPalindrome(n);
+	Result1=isPalindrome(n1);
 	if(Result1== "Yes")
   {
   std::cout<<"test cases is pass"<<std::endl;
