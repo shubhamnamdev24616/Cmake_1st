@@ -2,7 +2,7 @@
 
 std::string isPalindrome(int n)
 {
-	std::int remainder,reversed_number=0;
+	int remainder,reversed_number=0;
 	  while(n != 0) {
     remainder = n % 10;
     reversed_number = reversed_number * 10 + remainder;
