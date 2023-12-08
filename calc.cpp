@@ -1,6 +1,6 @@
 #include "calc.h"
 
-std::string isPalindrome(std::int n)
+std::string isPalindrome(int n)
 {
 	std::int remainder,reversed_number=0;
 	  while(n != 0) {
