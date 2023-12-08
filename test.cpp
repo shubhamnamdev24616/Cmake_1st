@@ -1,3 +1,4 @@
+#include <iostream.h>
 #include "calc.h"
 
 int test()
