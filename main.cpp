@@ -1,8 +1,7 @@
 #include<iostream>
-#include<string>
 #include "calc.h"
 //#include "calc.h"
-using namespace std;
+
 int main()
 {
    string S = "ABCDCBA",S1="shubham";
