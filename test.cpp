@@ -1,7 +1,7 @@
 #include <iostream>
 #include "calc.h"
 
-int test()
+int main()
 {
    int S = 1234321;
 	if(isPalindrome(S)== "yes")
