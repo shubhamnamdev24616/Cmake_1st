@@ -4,7 +4,9 @@
 int main()
 {
    int S = 1234321;
-	if(isPalindrome(S)== "yes")
+	std::string Result;
+	Result=isPalindrome(S);
+	if(Result== "yes")
   {
   std::cout<<"test cases is pass"<<std::endl;
   }
