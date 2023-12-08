@@ -4,7 +4,8 @@
 using namespace std;
 int main()
 {
-   string S = "ABCDCBA";
+   string S = "ABCDCBA",S1="shubham";
 	cout << isPalindrome(S);
+	cout << isPalindrome(S1);
     return 0;
 }
