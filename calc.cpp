@@ -1,6 +1,6 @@
 #include "calc.h"
 
-std::string isPalindrome(string S)
+std::string isPalindrome(std::string S)
 {
 	// Stores the reverse of the
 	// string S
