@@ -6,7 +6,7 @@ int main()
    int S = 1234321;
 	std::string Result;
 	Result=isPalindrome(S);
-	if(Result== "yes")
+	if(Result== "Yes")
   {
   std::cout<<"test cases is pass"<<std::endl;
   }
