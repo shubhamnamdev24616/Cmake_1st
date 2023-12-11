@@ -13,7 +13,18 @@ SET(GCC_COVERAGE_LINK_FLAGS "-lgcov")
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}")
 SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_LINKER_FLAGS} ${GCC_COVERAGE_LINK_FLAGS}")
 
+set(MAIN_SOURCE
+    main.cpp
+    test.cpp
+)
 
+
+
+
+#UNIT_TEST
+set(UT_SRC 
+    ${MAIN_SOURCE}
+    test/UT/UT.cpp  
 
 # Locate Google Test
 find_package(GTest REQUIRED)
