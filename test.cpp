@@ -1,29 +1,15 @@
-#include <iostream>
-#include "calc.h"
+#include <gtest/gtest.h>
+#include "calc1.h"
 
-int main()
-{
-   int n= 1234321,n1=24616;
-	std::string Result;
-	Result=isPalindrome(n);
-	if(Result== "Yes")
-  {
-  std::cout<<"test cases is pass"<<std::endl;
-  }
-  else
-  {
-   std::cout<<"test cases is fail"<<std::endl;
-  }
-	std::string Result1;
-	Result1=isPalindrome(n1);
-	if(Result1== "Yes")
-  {
-  std::cout<<"test cases is pass"<<std::endl;
-  }
-  else
-  {
-   std::cout<<"test cases is fail"<<std::endl;
-  }
-    return 0;
+TEST(PalindromeTest, Test1) {
+  EXPECT_EQ(isPalindrome(1234321), "Yes");
 }
 
+TEST(PalindromeTest, Test2) {
+  EXPECT_EQ(isPalindrome(24616), "No");
+}
+
+int main(int argc, char **argv) {
+  testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
+}
