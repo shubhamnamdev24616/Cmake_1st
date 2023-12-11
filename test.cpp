@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "calc1.h"
+#include "calc.h"
 
 TEST(PalindromeTest, Test1) {
   EXPECT_EQ(isPalindrome(1234321), "Yes");
