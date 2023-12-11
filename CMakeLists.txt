@@ -21,10 +21,7 @@ set(MAIN_SOURCE
 
 
 
-#UNIT_TEST
-set(UT_SRC 
-    ${MAIN_SOURCE}
-    test/UT/UT.cpp  
+
 
 # Locate Google Test
 find_package(GTest REQUIRED)
@@ -34,10 +31,10 @@ include_directories(${GTEST_INCLUDE_DIRS})
 set(TEST_SOURCES test.cpp)
 
 #
-add_executable(a.out main.cpp calc.cpp test.cpp)
+add_executable(a.out main.cpp calc.cpp )
 Create the test executable
 add_executable(test ${TEST_SOURCES})
-target_link_libraries(test ${GTEST_LIBRARIES} pthread)
+
 target_link_libraries(test  GTest::gtest_main gcov) 
 
 
